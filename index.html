@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Landing Page - DOM and Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>StartUp</h2>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a>
+      <a href="#services">Services</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <h1>Build Your Future With Us</h1>
+      <p>We provide innovative solutions to grow your business.</p>
+      <button id="startBtn" type="button">Get Started</button>
+      <p id="demo" aria-live="polite"></p>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a creative startup focused on developing modern technology solutions.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <article class="card"><h3>Web Development</h3><p>Creating modern websites.</p></article>
+        <article class="card"><h3>Digital Marketing</h3><p>Growing businesses online.</p></article>
+        <article class="card"><h3>Business Solutions</h3><p>Providing innovative ideas.</p></article>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <label for="email">Your email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="message" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer><p>Copyright 2026 StartUp. All Rights Reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
